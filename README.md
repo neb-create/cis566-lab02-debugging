@@ -1,10 +1,10 @@
 # Debugging Lab Submission - Nico Kong
 
-## Shadertoy Link
+## Shadertoy
 
-https://www.shadertoy.com/view/wfsfWf
+Link: https://www.shadertoy.com/view/wfsfWf
 
-I completed this assignment solo.
+![](f5.png)
 
 ## Debugging Process
 
@@ -26,6 +26,10 @@ I'm now assuming that the reflection is hitting the object itself - since the co
 up on further inspection, [line 75] dir = reflect(eye, nor); doesn't make sense.
 we're trying to reflect the ray direction and not the eye vector - so I fixed the problem by changing it to
 [line 75] dir = reflect(dir, nor);
+
+## Team Members
+
+This assignment was completed solo.
 
 # Assignment Description
 
