@@ -3,7 +3,8 @@
 ## Shadertoy Link
 
 https://www.shadertoy.com/view/wfsfWf
-I completed this assignment solo
+
+I completed this assignment solo.
 
 ## Debugging Process
 
