@@ -1,12 +1,11 @@
-# Student
+# Debugging Lab Submission - Nico Kong
 
-Nico Kong (I debugged this alone)
-
-# Shadertoy Link
+## Shadertoy Link
 
 https://www.shadertoy.com/view/wfsfWf
+I completed this assignment solo
 
-# Debugging Process
+## Debugging Process
 
 1 - Compiler help me identify that the code wrote
 [line 97] vec uv2 instead of vec2 uv2;
@@ -27,7 +26,7 @@ up on further inspection, [line 75] dir = reflect(eye, nor); doesn't make sense.
 we're trying to reflect the ray direction and not the eye vector - so I fixed the problem by changing it to
 [line 75] dir = reflect(dir, nor);
 
-# lab02-debugging
+# Assignment Description
 
 # Setup 
 
